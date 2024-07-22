@@ -11,7 +11,7 @@
 - **Responsive Layout:** The layout is centered and styled with TailwindCSS to ensure a consistent look and feel.
 
 ### Demo
-![Demo](public/demo.gif)
+![Demo](.public/demo.gif)
 
 ## Installation
 
