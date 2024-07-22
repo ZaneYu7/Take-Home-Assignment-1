@@ -10,6 +10,9 @@
 - **Highlight Functionality:** Click on an item to highlight it in green. Click again to remove the highlight.
 - **Responsive Layout:** The layout is centered and styled with TailwindCSS to ensure a consistent look and feel.
 
+### Demo
+![Demo](https://github.com/ZaneYu7/Take_Home_Assignment_1/blob/main/Inventory/public/Demo.gif)
+
 ## Installation
 
 To run this project locally, follow these steps:
