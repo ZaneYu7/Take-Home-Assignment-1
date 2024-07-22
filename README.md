@@ -3,7 +3,6 @@
 - This project is a simple React application created using Vite, showcasing a list highlighter with three categories: Vegetables, Spices, and Fruits.
 - The application allows users to click on items in the list to highlight them in green.
 - The project is styled using TailwindCSS.
-- To see the demo: 
 
 ## Features
 
