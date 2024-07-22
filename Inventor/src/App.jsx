@@ -6,20 +6,26 @@ import VegetablesList from './VegetablesList'
 
 function App() {
   const getActiveClass = ({ isActive }) => 
-    isActive ? 'p-2 bg-green-400 rounded' : 'p-2 bg-gray-200 rounded';
+    isActive ? 'bg-green-400 rounded' : 'bg-gray-200 rounded';
 
   return (
     <Router>
       <div className="flex flex-col items-center">
-        <header className="w-full bg-purple-200 text-center py-4">
+        <header className="mt-5 w-full max-w-lg bg-purple-200 text-center py-4">
           <h1 className="text-3xl font-bold">Inventory</h1>
         </header>
         
-        <div className="space-x-2 bg-gray-50 border-gray-100">
-          <nav className="flex space-x-4 my-4">
-            <NavLink to="/vegetables" className={getActiveClass}>(1) Vegetables</NavLink>
-            <NavLink to="/spices" className={getActiveClass}>(2) Spices</NavLink>
-            <NavLink to="/fruits" className={getActiveClass}>(3) Fruits</NavLink>
+        <div className="w-full max-w-lg p-4 border border-gray-200 mt-5">
+          <nav className="flex space-x-2 my-4">
+            <NavLink to="/vegetables" className={({ isActive }) =>
+                `${getActiveClass({ isActive })} flex-1 text-center p-2`
+              }>(1) Vegetables</NavLink>
+            <NavLink to="/spices" className={({ isActive }) =>
+                `${getActiveClass({ isActive })} flex-1 text-center p-2`
+              }>(2) Spices</NavLink>
+            <NavLink to="/fruits" className={({ isActive }) =>
+                `${getActiveClass({ isActive })} flex-1 text-center p-2`
+              }>(3) Fruits</NavLink>
           </nav>
         </div>
         
