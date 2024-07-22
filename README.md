@@ -11,7 +11,7 @@
 - **Responsive Layout:** The layout is centered and styled with TailwindCSS to ensure a consistent look and feel.
 
 ### Demo
-![Demo](.public/demo.gif)
+![Demo](https://github.com/ZaneYu7/Take_Home_Assignment_1/blob/main/Inventory/public/Demo.gif)
 
 ## Installation
 
